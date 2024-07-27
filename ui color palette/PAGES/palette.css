@@ -1,0 +1,1072 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.navParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    padding: 5px;
+    /* background-color: rgb(193, 63, 63); */
+}
+
+.backParent {
+    display: flex;
+}
+
+.backParent:hover {
+    cursor: pointer;
+}
+
+.back {
+    font-size: 25px;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
+.copyFormat {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.copyFormat:hover {
+    cursor: pointer;
+}
+
+.copy {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sound {
+    font-size: 25px;
+}
+
+.sound:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.row-parent {
+    height: 100%;
+    width: 100%;
+}
+.row1 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+.BEEKEEPER {
+    background-color: #f6e58d;
+}
+
+.Spiced {
+    background-color: #ffbe76;
+}
+
+.Glamour {
+    background-color: #ff7979;
+}
+
+.June {
+    background-color: #badc58;
+}
+
+.Coastal {
+    background-color: #dff9fb;
+
+}
+
+.row2 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.TURBO {
+    background-color: #f9ca24;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%; 
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.QUINCE {
+    background-color: #f0932b;
+}
+
+.CARMINE {
+    background-color: #eb4d4b;
+}
+
+.PURE {
+    background-color: #6ab04c;
+}
+
+.HINT {
+    background-color: #c7ecee;
+
+}
+.row3 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.MIDDLE {
+    background-color: #7ed6df;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.HELIOTROPE {
+    background-color: #e056fd;
+}
+
+.EXODUS {
+    background-color: #686de0;
+}
+
+.DEEP {
+    background-color: #30336b;
+}
+
+.SOARING {
+    background-color: #95afc0;
+
+}
+.row4 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.GREEN {
+    background-color: #22a6b3;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.STEEL {
+    background-color: #be2edd;
+}
+
+.BLURPLE {
+    background-color: #4834d4;
+}
+
+.DEEP {
+    background-color: #130f40;
+}
+
+.WIZARD {
+    background-color: #535c68;
+}
+
+
+
+
+
+.PROTOSS{
+background-color:#00a8ff ;
+}
+.PERIWINKLE{
+    background-color: #9c88ff;
+}
+.RISE-N-SHINE{
+    background-color:#fbc531 ;
+}
+.DOWNLOAD{
+    background-color:#4cd137 ;
+}
+.SEABROOK{
+    background-color: #487eb0;
+}
+.VANADYL{
+    background-color:#0097e6 ;
+}
+.MATT{
+    background-color: #8c7ae6;
+}
+.NANOHANACHA{
+    background-color: #e1b12c;
+}
+.SKIRRET{
+    background-color:#44bd32 ;
+}
+.NAVAL{
+    background-color: #40739e;
+}
+.NASTURCIAN{
+    background-color: #e84118;
+}
+.LYNX{
+    background-color:#f5f6fa ;
+}
+.BLUEBERRY{
+    background-color:#7f8fa6 ;
+}
+.MAZARINE{
+    background-color:#273c75 ;
+}
+.BLUENIGHTS{
+    background-color:#353b48 ;
+}
+.HARLEY{
+    background-color:#c23616 ;
+}
+.HINT{
+    background-color:#dcdde1 ;
+}
+.CHAIN{
+    background-color: #718093;
+}
+.PICO{
+    background-color:#192a56 ;
+}
+.ELECTROMAGNETIC{
+    background-color: #2f3640;
+}
+
+
+
+
+
+.JIGGLYPUFF{
+   background-color:#ff9ff3 ;
+}
+.CASANDORA{
+    background-color:#feca57 ;
+}
+.PASTEL{
+    background-color:#ff6b6b ;
+}
+.MEGAMAN{
+    background-color:#48dbfb ;
+}
+.WILD{
+    background-color:#1dd1a1 ;
+}
+.LIAN{
+    background-color: #f368e0;
+}
+.DOUBLE{
+    background-color:#ff9f43 ;
+}
+.ARMOUR{
+    background-color: #ee5253;
+}
+.CYANITE{
+    background-color:#0abde3 ;
+}
+.DARK{
+    background-color: #10ac84;
+}
+.JADE{
+    background-color: #00d2d3;
+}
+.JOUST{
+    background-color: #54a0ff;
+}
+.NASU{
+    background-color: #5f27cd;
+}
+.LIGHT{
+    background-color: #c8d6e5;
+}
+.FUEL{
+    background-color:#576574 ;
+}
+.AQUA{
+    background-color:#01a3a4 ;
+}
+.BLEU{
+    background-color:#2e86de ;
+}
+.BLUEBELL{
+    background-color: #341f97;
+}
+.STORM{
+    background-color: #8395a7;
+}
+.IMPERIAL{
+    background-color: #222f3e;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.navParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    padding: 5px;
+    /* background-color: rgb(193, 63, 63); */
+}
+
+.backParent {
+    display: flex;
+}
+
+.backParent:hover {
+    cursor: pointer;
+}
+
+.back {
+    font-size: 25px;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
+.copyFormat {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.copyFormat:hover {
+    cursor: pointer;
+}
+
+.copy {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sound {
+    font-size: 25px;
+}
+
+.sound:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.row-parent {
+    height: 100%;
+    width: 100%;
+}
+.row1 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.GOLDEN {
+    background-color: #eccc68;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.CORAL {
+    background-color: #ff7f50;
+}
+
+.WILD {
+    background-color: #ff6b81;
+}
+
+.PEACE {
+    background-color: #a4b0be;
+}
+
+.GRISAILLE {
+    background-color: #57606f;
+
+}
+
+.row2 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.ORANGE {
+    background-color: #ffa502;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%; 
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.TOMATO {
+    background-color: #ff6348;
+}
+
+.WATERMELON {
+    background-color: #ff4757;
+}
+
+.BAY {
+    background-color: #747d8c;
+}
+
+.PRESTIGE {
+    background-color: #2f3542;
+
+}
+.row3 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.LIME {
+    background-color: #7bed9f;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.FRENCH {
+    background-color: #70a1ff;
+}
+
+.SATURATED {
+    background-color: #5352ed;
+}
+
+.WHITE {
+    background-color: #ffffff;
+}
+
+.CITY {
+    background-color: #dfe4ea;
+
+}
+.row4 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.UFO {
+    background-color: #2ed573;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.CLEAR {
+    background-color: #1e90ff;
+}
+
+.BRIGHT {
+    background-color: #3742fa;
+}
+
+.ANTI {
+    background-color: #f1f2f6;
+}
+
+.TWINKLE {
+    background-color: #ced6e0;
+
+}
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.navParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    padding: 5px;
+    /* background-color: rgb(193, 63, 63); */
+}
+
+.backParent {
+    display: flex;
+}
+
+.backParent:hover {
+    cursor: pointer;
+}
+
+.back {
+    font-size: 25px;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
+.copyFormat {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.copyFormat:hover {
+    cursor: pointer;
+}
+
+.copy {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sound {
+    font-size: 25px;
+}
+
+.sound:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.row-parent {
+    height: 100%;
+    width: 100%;
+}
+.row1 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.SUNFLOWER {
+    background-color: #FFC312;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.ENERGOS {
+    background-color: #C4E538;
+}
+
+.BLUE {
+    background-color: #12CBC4;
+}
+
+.LAVENDER {
+    background-color: #FDA7DF;
+}
+
+.BARA {
+    background-color: #ED4C67;
+
+}
+
+.row2 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.RADIANT {
+    background-color: #F79F1F;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%; 
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.ANDROID {
+    background-color: #A3CB38;
+}
+
+.MEDI {
+    background-color: #1289A7;
+}
+
+.LAVENDER {
+    background-color: #D980FA;
+}
+
+.VERY {
+    background-color: #B53471;
+
+}
+.row3 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.PUFFINS {
+    background-color: #EE5A24;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.PIXELATED {
+    background-color: #009432;
+}
+
+.MARINE {
+    background-color: #0652DD;
+}
+
+.FORGOTTON {
+    background-color: #9980FA;
+}
+
+.HOLLYHOCK {
+    background-color: #833471;
+
+}
+.row4 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.RED {
+    background-color: #EA2027;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.TURKISH {
+    background-color: #006266;
+}
+
+.THESEA {
+    background-color: #1B1464;
+}
+
+.RING {
+    background-color: #5758BB;
+}
+
+.MAGENTA {
+    background-color: #6F1E51;
+
+}
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.navParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    padding: 5px;
+    /* background-color: rgb(193, 63, 63); */
+}
+
+.backParent {
+    display: flex;
+}
+
+.backParent:hover {
+    cursor: pointer;
+}
+
+.back {
+    font-size: 25px;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+
+.copyFormat {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.copyFormat:hover {
+    cursor: pointer;
+}
+
+.copy {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sound {
+    font-size: 25px;
+}
+
+.sound:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.row-parent {
+    height: 100%;
+    width: 100%;
+}
+.row1 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.FLAT {
+    background-color: #fad390;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.MELON {
+    background-color: #f8c291;
+}
+
+.LIVID {
+    background-color: #6a89cc;
+}
+
+.SPRAY {
+    background-color: #82ccdd;
+}
+
+.PARADISE {
+    background-color: #b8e994;
+
+}
+
+.row2 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.SQUASH {
+    background-color: #f6b93b;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%; 
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.MANDARIN {
+    background-color: #e55039;
+}
+
+.AZRAQ {
+    background-color: #4a69bd;
+}
+
+.DUPAIN {
+    background-color: #60a3bc;
+}
+
+.AURORA {
+    background-color: #78e08f;
+
+}
+.row3 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.ICELAND {
+    background-color: #fa983a;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.TOMATO {
+    background-color: #eb2f06;
+}
+
+.LAN {
+    background-color: #1e3799;
+}
+
+.GOOD {
+    background-color: #3c6382;
+}
+
+.WATERFALL {
+    background-color: #38ada9;
+
+}
+.row4 {
+    display: flex;
+    /* background-color: purple; */
+}
+
+.CARROT {
+    background-color: #e58e26;
+}
+
+.color {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.txt-align {
+    color: white;
+    font-weight: bold;
+}
+
+.JALAPENO {
+    background-color: #b71540;
+}
+
+.DARK {
+    background-color: #0c2461;
+}
+
+.FOREST {
+    background-color: #0a3d62;
+}
+
+.REEF {
+    background-color: #079992;
+
+}
